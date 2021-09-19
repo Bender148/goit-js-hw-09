@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-09",
+  "version": "1.0.0",
+  "description": "Parcel Test",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public url /goit-js-hw-09/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bender148/goit-js-hw-09.git"
+  },
+  "author": "Ivan Suprun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bender148/goit-js-hw-09/issues"
+  },
+  "homepage": "https://Bender148.github.io/goit-js-hw-09/",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "webpack": "^5.53.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
